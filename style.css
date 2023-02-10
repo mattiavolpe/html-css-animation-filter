@@ -159,7 +159,7 @@
   }
 }
 
-.ex-11-icon {
+.ex-11-icon:hover {
   animation: partial-spin 2s linear infinite;
 }
 
