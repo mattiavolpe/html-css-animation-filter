@@ -145,4 +145,36 @@
   scale: 1.8;
 }
 
+.ex-10-icon {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.ex-11-icon {
+  animation: partial-spin 2s linear infinite;
+}
+
+@keyframes partial-spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  90% {
+    rotate: 270deg;
+  }
+
+  100% {
+    rotate: 0deg;
+  }
+}
+
 /* #endregion ANIMATIONS * /
