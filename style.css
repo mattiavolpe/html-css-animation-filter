@@ -114,5 +114,35 @@
   scale: 0.2;
 }
 
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
+
+.ex-7-img {
+  transition: filter 2s;
+}
+
+.ex-7-img:hover {
+  filter: sepia(100%) blur(10px);
+}
+
+.ex-8-img {
+  transition: filter 2s, border-radius 2s;
+}
+
+.ex-8-img:hover {
+  filter: drop-shadow(0 0 20px black) grayscale(100%);
+  border-radius: 50%;
+}
+
+.ex-9-img {
+  transition: filter 2s, border-radius 2s, scale 2s;
+}
+
+.ex-9-img:hover {
+  filter: blur(10px) sepia(100%);
+  border-radius: 50%;
+  scale: 1.8;
+}
 
 /* #endregion ANIMATIONS * /
